@@ -1,0 +1,20 @@
+{
+  "name": "gqldemo",
+  "version": "1.0.0",
+  "description": "GQLDEMO-Application",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "cd server && npm start",
+    "start": "concurrent --kill-others \"npm run client\" \"npm run server\" "
+  },
+  "author": "Canberk Demirkan",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^3.6.1",
+    "nodemon": "^1.18.3",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
