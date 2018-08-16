@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Node.js is installed on your machine.
 
 ```
 Give examples
@@ -18,19 +18,23 @@ Give examples
 
 A step by step series of examples that tell you how to get a development env running.
 
-Say what the step will be
+First install node modules with node package manager (npm).
 
 ```
-Give the example
+npm install
 ```
 
-And repeat
+Then install packages for client and server applications.
 
 ```
-until finished
+npm run setup
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+Start application.
+
+```
+npm start
+```
 
 ## Deployment
 
